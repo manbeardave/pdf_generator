@@ -52,7 +52,7 @@ $pdftk = '/usr/bin/pdftk';
 $pdf_name = dirname(__FILE__) . '/' . 'pdf_files' . '/' . $data['corp_name'] . '-' . $data['NAME'] . '.pdf';
 $command = "sudo pdftk $pdf_template_path fill_form '$xfdf_file_path' output '$pdf_name' flatten";
 
-$pdf_url = 'http://testlamp.com/pdf_files/' . $data['corp_name'] . '-' . $data ['NAME'] . '.pdf';
+$pdf_url = 'https://vast-sands-2264.herokuapp.com/pdf_files/' . $data['corp_name'] . '-' . $data ['NAME'] . '.pdf';
 
 exec( $command, $output, $ret );
 
@@ -66,7 +66,7 @@ echo "<div class='bg_i'>
 
 
 </div></div>
-<object data='$pdf_url' type='application/pdf'class='right_pdf' height='1000px'><p>It appears you don't have Adobe Reader on your machine - click<a href='$pdf_url'>here</a>to preview your PDF!</p></object>
+<object data='$pdf_url' type='application/pdf' class='right_pdf' height='1000px'><p>It appears you don't have Adobe Reader on your machine - click<a href='$pdf_url'>here</a>to preview your PDF!</p></object>
 </div>"
 
 
