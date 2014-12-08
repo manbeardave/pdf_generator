@@ -7,7 +7,7 @@
 <form action="processinfo.php" method="POST">
 <div class="form_inputs">
 <div class="left_block">
-<span>Date</span>
+<span>Dasdfsfte</span>
 
 <input type="text" name="date">
 <br>
