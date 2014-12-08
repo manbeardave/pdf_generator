@@ -1,0 +1,13 @@
+{
+    "name": "contract/contract",
+    "description": "I have no idea what I'm doing",
+    "require": {
+        "php": "~5.5"
+    },
+    "authors": [
+        {
+            "name": "manbeardave",
+            "email": "dave.hines@vervemobile.com"
+        }
+    ]
+}
