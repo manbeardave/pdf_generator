@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "name": "contract/contract",
     "description": "I have no idea what I'm doing",
     "require": {
@@ -11,3 +12,9 @@
         }
     ]
 }
+=======
+    "require": {
+        "monolog/monolog": "1.0.*"
+    }
+}
+>>>>>>> FETCH_HEAD

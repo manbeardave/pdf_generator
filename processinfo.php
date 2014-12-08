@@ -52,7 +52,7 @@ $pdftk = '/usr/bin/pdftk';
 $pdf_name = dirname(__FILE__) . '/' . 'pdf_files' . '/' . $data['corp_name'] . '-' . $data['NAME'] . '.pdf';
 $command = "sudo pdftk $pdf_template_path fill_form '$xfdf_file_path' output '$pdf_name' flatten";
 
-$pdf_url = 'https://vast-sands-2264.herokuapp.com/pdf_files/' . $data['corp_name'] . '-' . $data ['NAME'] . '.pdf';
+$pdf_url = 'https://glacial-journey-4511.herokuapp.com/pdf_files/' . $data['corp_name'] . '-' . $data ['NAME'] . '.pdf';
 
 exec( $command, $output, $ret );
 
